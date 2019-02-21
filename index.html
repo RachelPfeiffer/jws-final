@@ -5,24 +5,23 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="We certify Red Cross Lifeguards, Water Safety Instructors, First Aid Professionals, and more!">
+  <meta name="author" content="Rachel Pfeiffer">
 
   <title>Jerusalem Water Safety</title>
-
+<link rel="stylesheet" href="before.css">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="creative.min.css" rel="stylesheet">
+  <link href="css/creative.min.css" rel="stylesheet">
 
   <!-- link to favicon -->
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/favicon.ico">
 
 
 </head>
@@ -35,6 +34,8 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img class="small" src="img/logo-small.png" alt="Jerusalem Water Safety logo">
       </a>
+      <a class="nav-link js-scroll-trigger" href="#contact"><button class="btn btn-primary btn-lg signup topper" type="button" name="button">Sign Up</button></a>
+
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,6 +50,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact"><button class="btn btn-primary btn-md signup" type="button" name="button">Sign Up</button></a>
+          </li>
         </ul>
       </div>
     </div>
@@ -59,11 +63,11 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold fade-in">Welcome to Jerusalem Water Safety</h1>
+          <h1 class="text-uppercase text-white font-weight-light fade-in">Welcome to Jerusalem Water Safety</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Earn your Red Cross Certification in lifeguarding, WSI, CPR and more.</p>
+          <h4 class="text-white-75 font-weight-bold text-uppercase mb-5">Earn your Red Cross Certification in lifeguarding, WSI, CPR and more.</h4>
           <a class="animated bounceIn btn btn-primary btn-xl js-scroll-trigger" href="#about">Dive In</a>
         </div>
       </div>
@@ -77,9 +81,39 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0 hidden">Let's get you certified!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">We offer all the courses you need to become a lifeguard, lifeguard instructor, certified First Aid professional, and more! Check out our current course offerings below or contact us to ask about a custom course for your group!</p>
+          <p class="text-white mb-4">We offer all the courses you need to become a lifeguard, lifeguard instructor, certified First Aid professional, and more! Check out our current course offerings below or contact us to ask about a custom course for your group!</p>
+        </div>
+      </div>
+        <div class="row justify-content-center text-white mt-5">
+          <h5>We Teach:</h5>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <ul class="drops">
+              <li class="tiny one"></i>Lifeguarding</li>
+              <li class="tiny two"></i>Lifeguard Refresher</li>
+              <li class="tiny three"></i>WSI (Swimming Instructor)</li>
+              <li class="tiny four"></i>Lifeguard Management</li>
+              <li class="tiny five"></i>Junior Lifeguarding</li>
+              <li class="tiny six"></i>Shallow Water Lifeguarding</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="drops">
+              <li class="tiny seven">CPR/AED for the Professional Rescuer and Health Care Provider</li>
+              <li class="tiny eight">BLS - Basic Life Support</li>
+              <li class="tiny nine">Adult and Pediatric First Aid/CPR/AED</li>
+              <li class="tiny ten">RTE - Responding to Emergencies</li>
+              <li class="tiny eleven">Basic Water Rescue</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
         </div>
+      </div>
+      <div class="tiny babysitter">
+        <h6>Ask about our Babysitter Training Course!</h5>
       </div>
     </div>
   </section>
@@ -99,77 +133,322 @@
     <div class="container">
       <h2 class="text-center mt-0 hidden">Choose Your Course</h2>
       <hr class="divider my-4">
+      <section class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="accordion" id="accordionLifeguarding">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingLifeguarding">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseLifeguarding"
+                    aria-expanded="true" aria-controls="#collapseTen">
+                    <img class="text-primary mb-4" src="img/whistle.png">
+                    <h3 class="h4 mb-2">Red Cross Lifeguarding</h3>
+                    <p class="mb-2">29 hours </p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseLifeguarding" class="collapse" aria-labelledby="headingLifeguarding" data-parent="#accordionLifeguarding">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left mr-3">
+                      <li>Protecting Patrons in and around water</li>
+                      <li>Water Rescue Skills</li>
+                      <li>Effective Patron Surveillance</li>
+                      <li>CPR/AED and First Aid Certification (included)</li> <br>
+                      <span class="text-dark"><strong>Age Requirement: 15+</strong></span> <br><br>
+                      <em>Review Course option available for those with current certification.</em> <br>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="accordion" id="accordionShallow">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingShallow">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseShallow"
+                    aria-expanded="true" aria-controls="#collapseShallow">
+                    <i class="fas fa-water mb-4"></i>
+                    <h3 class="h4 mb-2">Shallow Water Lifeguarding</h3>
+                    <p class="mb-2">27 hours</p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseShallow" class="collapse" aria-labelledby="headingShallow" data-parent="#accordionShallow">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>Certification for pools up to 5 feet deep or from 5 to 7 feet deep</li>
+                      <li>Water Rescue Skills for shallow water</li>
+                      <li>CPR/AED/First Aid</li> <br>
+                      <span class="text-dark"><strong>Age Requirement: 15+</strong></span> <br> <br>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="accordion" id="accordionLInstructor">
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingLInstructor">
+                    <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseLInstructor"
+                      aria-expanded="true" aria-controls="#collapseLInstructor">
+                      <i class="fas fa-swimming-pool mb-4"></i>
+                      <h3 class="h4 mb-2">Lifeguard Instructor</h3>
+                      <p class="mb-2">24 hours</p>
+                      <i class="fas fa-angle-down rotate-icon"></i>
+                    </button>
+                </div>
+                <div id="collapseLInstructor" class="collapse" aria-labelledby="headingLInstructor" data-parent="#accordionLInstructor">
+                  <div class="card-body">
+                    <div class="">
+                      <ul class="text-muted small text-left mb-0">
+                        <li>Learn to teach basic level lifeguarding</li>
+                        <li>Perform lifeguarding skills at instructor-level proficiency</li>
+                        <li>Learn how to maintain records and reports</li>
+                        <li>Learn how to plan, organize and conduct courses in accordance with Red Cross requirements</li>
+                        <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="accordion" id="accordionWSI">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingWSI">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseWSI"
+                    aria-expanded="true" aria-controls="#collapseWSI">
+                    <i class="fas fa-swimmer mb-4"></i>
+                    <h3 class="h4 mb-2">WSI-Water Safety Instructor</h3>
+                      <h6>Swim Instructor</h6>
+                    <p class="mb-2">32 hours</p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseWSI" class="collapse" aria-labelledby="headingWSI" data-parent="#accordionWSI">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>Instructor Level Course</li>
+                      <li>11 Swimming Strokes</li>
+                      <li>Fundamentals of Diving</li>
+                      <li>Water Safety Courses</li> <br>
+                      <span class="text-dark"><strong>Age Requirement: 16+</strong></span> <br> <br>
+                    </ul>
+                    <ul>
+                      <h6>Graduates will be qualified to teach:</h6>
+                      <ul class="text-muted mb-0 small text-left">
+                        <li>Parent and Child Aquatics</li>
+                        <li>Preschool Aquatics</li>
+                        <li>Learn to Swim - Levels 1 to 6</li>
+                        <li>Adult Swim</li>
+                        <li>Aquatic Fitness Saftey Courses</li>
+                        <li>Basic Water Rescue</li>
+                        <li>Safety Training for Swim Coaches</li>
+                        <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+
+                      </ul>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <img class="text-primary mb-4" src="img/whistle.png">
-            <h3 class="h4 mb-2">Red Cross Lifeguard</h3>
-            <p class="mb-2">40 hours </p>
-            <ul class="text-muted mb-0 small text-left drops">
-              <li>Effective Surveillance</li>
-              <li>Water Rescue Skills</li>
-              <li>Emergency Action Plans</li>
-              <li>Injury Prevention</li>
-              <li>Breathing and Cardiac Emergencies</li>
-              <li>First Aid</li>
-              <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <img class="text-primary mb-4" src="img/lifebuoy.png">
-            <h3 class="h4 mb-2">Lifeguard Instructor</h3>
-            <p class="mb-2">24 hours</p>
-            <ul class="text-muted mb-0 small text-left drops">
-              <li>Lifeguarding course planning</li>
-              <li>Instructor Code of Conduct</li>
-              <li>Instructor-level lifeguarding skills</li>
-              <li>Evaluation of Lifeguards</li>
-              <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
-            </ul>
+          <div class="accordion mt-5" id="accordionPro">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingPro">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapsePro"
+                    aria-expanded="true" aria-controls="#collapsePro">
+                    <i class="fa fa-ambulance mb-4"></i>
+                    <h3 class="h4 mb-2">CPR/AED for the Professional Rescuer</h3>
+                    <p class="mb-2">6 hours</p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapsePro" class="collapse" aria-labelledby="headingPro" data-parent="#accordionPro">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>Training for Professional Level Responders</li>
+                      <li>Breathing and Cardiac Emergencies in Adults, Children, and Infants</li>
+                      <li>Use of an AED and BVM</li>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <img class="text-primary mb-4" src="img/swimmer.png">
-            <h3 class="h4 mb-2">Swimming Instructor <br> (WSI)</h3>
-            <p class="mb-2">31 hours</p>
-            <ul class="text-muted small text-left mb-0 drops">
-              <li>11 Swimming Strokes</li>
-              <li>Fundamentals of Diving</li>
-              <li>Safety Skills</li>
-              <li>Aquatic Fitness</li>
-              <li>Water Safety</li>
-              <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
-            </ul>
+          <div class="accordion mt-5" id="accordionMgmt">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingMgmt">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseMgmt"
+                    aria-expanded="true" aria-controls="#collapseMgmt">
+                    <i class="fa fa-life-ring mb-4"></i>
+                    <h3 class="h4 mb-2">Lifeguard Management</h3>
+                    <p class="mb-2"></p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseMgmt" class="collapse" aria-labelledby="headingMgmt" data-parent="#accordionMgmt">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>In-person written exam required for NYS camps</li> <br>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <img class="text-primary mb-4" src="img/medical-kit.png">
-            <h3 class="h4 mb-2">First Aid Training</h3>
-            <p class="mb-2">6 hours</p>
-            <ul class="text-muted mb-0 small text-left drops">
-              <li>Choking</li>
-              <li>Burns</li>
-              <li>Bleeding</li>
-              <li>Poisoning</li>
-              <li>CPR</li>
-              <li>Neck and Spinal Injuries</li>
-              <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
-            </ul>
+          <div class="accordion mt-5" id="accordionFirst">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingFirst">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseFirst"
+                    aria-expanded="true" aria-controls="#collapseFirst">
+                    <i class="fas fa-first-aid mb-4"></i>
+                    <h3 class="h4 mb-2">First Aid/CPR/AED</h3>
+                    <p class="mb-2"></p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseFirst" class="collapse" aria-labelledby="headingFirst" data-parent="#accordionFirst">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>Cardiac, breathing, and First Aid emergencies</li>
+                      <li>Choking</li>
+                      <li>Burns</li>
+                      <li>Bleeding</li>
+                      <li>Strokes</li>
+                      <li>Diabetic Emergencies</li>
+                      <li>Seizures</li>
+                      <li>Head and Neck Injuries</li>
+                      <ul>
+                        <h6>
+                          Other Course Options
+                        </h6>
 
+                          <li>Administering Emergency Oxygen</li>
+                          <li>Asthma Inhaler</li>
+                          <li>Anaphylaxis and Use of Epipen</li>
+                          <li>Bloodborne Pathogens</li>
+
+                      </ul>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="accordion mt-5" id="accordionBLS">
+            <div class="card z-depth-0 bordered">
+              <div class="card-header" id="headingBLS">
+                  <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseBLS"
+                    aria-expanded="true" aria-controls="#collapseBLS">
+                    <i class="fa fa-medkit mb-4"></i>
+                    <h3 class="h4 mb-2">Basic Life Support (BLS)</h3>
+                    <p class="mb-2">4 hours</p>
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </button>
+              </div>
+              <div id="collapseBLS" class="collapse" aria-labelledby="headingBLS" data-parent="#accordionBLS">
+                <div class="card-body">
+                  <div class="">
+                    <ul class="text-muted mb-0 small text-left">
+                      <li>Respiratory arrest</li>
+                      <li>Cardiac arrest</li>
+                      <li>Airway obstruction</li>
+                      <li>Opioid overdose</li>
+                      <li>Focus on critical thinking, problem solving, and communication</li>
+                      <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="accordion mt-5" id="accordionRTE">
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingRTE">
+                    <button class="accordion-button btn btn-sm btn-link text-dark" type="button" data-toggle="collapse" data-target="#collapseRTE"
+                      aria-expanded="true" aria-controls="#collapseRTE">
+                      <i class="fas fa-plus-circle mb-4"></i>
+                      <h3 class="h4 mb-2">Responding To Emergencies - RTE</h3>
+                      <p class="mb-2">30 hours</p>
+                      <i class="fas fa-angle-down rotate-icon"></i>
+                    </button>
+                </div>
+                <div id="collapseRTE" class="collapse" aria-labelledby="headingRTE" data-parent="#accordionRTE">
+                  <div class="card-body">
+                    <div class="">
+                      <ul class="text-muted mb-0 small text-left">
+                        <li>Comprehensive CPR/AED/First Aid course</li>
+                        <li>Teaches students to respond to breathing, cardiac, and first aid emergencies until EMS arrives</li>
+                        <li>Many optional course add-ons</li> <br>
+                        <a class="btn btn-dark btn-sm js-scroll-trigger mt-3" href="#contact">Sign Up</a>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="help">
+              <a class=" text-white js-scroll-trigger mt-3" href="#contact"><h4>HELP!</h4><h6> I'M OVERWHELMED!</h6></a>
+              <p class="mt-3">Not sure which course to choose? <a class=" text-white js-scroll-trigger mt-3" href="#contact">Send us a quick message</a> and we'll guide you straight to the course you need.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
     <div class="mt-5 small ml-5">
       Don't see the course you need? No worries!
-      <a href="#contact">Contact us</a> and we'll let you know if we offer your certification.
+      <a href="contact">Contact us</a> and we'll let you know if we offer your certification.
     </div>
   </section>
 
@@ -186,7 +465,7 @@
           <img src="img/medal.png" class="mb-3 text-muted"></i>
           <div>
             <h4 class="mb-3">Experienced Instructor</h4>
-            <p class="">10 years of happy lifeguards so far!</p>
+            <p class="">Thousands of happy customers so far!</p>
           </div>
         </div>
         <div class="col-lg-3 m-auto text-center">
@@ -222,8 +501,83 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0 hidden">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to sign up or need some more info? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5">Ready to sign up or need some more info? Contact us and we will get back to you as soon as possible!</p>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="container bg-light mb-5">
+          <form action="https://formspree.io/jerusalemwatersafety@gmail.com" method="POST" />
+
+          <div class="row">
+            <div class="col-lg-6 text-right mt-4">
+              <div class="span3">
+    <label class="mr-3 mb-3">First Name</label>
+    <input class="span3" placeholder="Your First Name" type="text" name="First"> <br>
+
+    <label class="mr-3 mb-3">Last Name</label>
+    <input class="span3" placeholder="Your Last Name" type="text" name="Last"> <br>
+
+    <label class="mr-3 mb-3">Email Address</label>
+    <input class="span3" placeholder="Your email address" type="text" name="Email"> <br>
+
+    <label class="mr-3 mb-3">Phone Number</label>
+    <input class="span3" placeholder="Your phone number" type="text" name="Phone"> <br>
+
+    <label class="mr-3 mb-3">Location</label>
+    <select class="span3" id="location" name="Location">
+      <option selected value="na">Choose One</option>
+      <option value="Brooklyn">Brooklyn</option>
+      <option value="Five Towns">Five Towns</option>
+      <option value="Teaneck">Teaneck</option>
+      <option value="Upstate NY">Upstate NY</option>
+      <option value="other">Other</option>
+    </select> <br>
+
+
+    <label class="mr-3">Course Type</label>
+    <select class="span3" id="subject" name="Course">
+        <option selected value="na">
+            Choose One:
+        </option>
+
+        <option value="lifeguarding">
+            Lifeguarding
+        </option>
+
+        <option value="wsi">
+            WSI
+        </option>
+
+        <option value="firstaid">
+            First Aid
+        </option>
+
+        <option value="babysitter">
+          Babysitter Training
+        </option>
+
+
+        <option value="babysitter">
+          Other
+        </option>
+    </select> <br>
+</div>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <label>Message</label> <br>
+               <textarea name="message" class="input-xlarge span5 mb-2" maxlength="200" id="message" name="message"
+               rows="6"></textarea>
+               <button class="btn btn-primary pull-right mb-3" type=
+             "submit" value="Send">Send</button>
+           </div>
+            </div>
+
+              </form>
+          </div>
+
+        </div>
+
       </div>
       <div class="row">
              <div class="col-lg-4 ml-auto text-center">
@@ -248,13 +602,20 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="jquery/jquery.min.js"></script>
+
+
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
   <!-- Plugin JavaScript -->
   <script src="jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="creative.min.js"></script>
+  <script type="text/javascript" src="before.js">
+
+  </script>
 
 </body>
 
