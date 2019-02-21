@@ -68,6 +68,11 @@ animation-fill-mode: forwards;
 animation-fill-mode: forwards;
   animation-delay: 5.3s;
 }
+.regsize.twelve {
+   animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 5.8s;
+}
 
 .drops {
   list-style-image: url("img/drop.png");
@@ -118,7 +123,7 @@ ul.drops, .mt-5 ul, .card-body div{
   }
   
   .little-babysitter {
-    display: block;
+    display: list-item;
   }
 }
 
