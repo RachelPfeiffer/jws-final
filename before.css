@@ -1,0 +1,165 @@
+.tiny {
+display: none;
+}
+
+.regsize{
+  color: navy;
+  background-color: #e6e9ef;
+  opacity: 0;
+  display: list-item;
+}
+
+.regsize.one {
+    animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+.regsize.two {
+    animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+.regsize.three {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 1.3s;
+}
+
+.regsize.four {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+.regsize.five {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 2.3s;
+}
+.regsize.six {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 2.8s;
+}
+
+.regsize.seven {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 3.3s;
+}
+.regsize.eight {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 3.8s;
+}
+.regsize.nine {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 4.3s;
+}
+.regsize.ten {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 4.8s;
+}
+.regsize.eleven {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 5.3s;
+}
+
+.drops {
+  list-style-image: url("img/drop.png");
+  background-color: #e6e9ef;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 0 10px 30px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+ul.drops, .mt-5 ul, .card-body div{
+  background-color: #e6e9ef;
+  border-radius: 10px;
+  padding: 10px 5px 10px 30px;
+}
+
+.card-body div {
+  padding: 10px;
+}
+
+.card-body {
+  background-color: #e6e9ef;
+
+}
+
+.babysitter {
+  border-radius: 100px;
+  border: double 3px blue;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20px;
+  padding: 30px;
+  background-color: white;
+  color: navy;
+}
+
+.regsize.babysitter {
+  animation: fade-in 1.4s;
+animation-fill-mode: forwards;
+  animation-delay: 6s;
+  float: right;
+  margin: -10em 2em 1em 0;
+}
+
+
+@keyframes regsize {
+    from {opacity: 0;}
+    to {opacity: 0.5;}
+}
+
+
+.accordion-button {
+  max-width: 100%;
+  padding: unset;
+}
+
+.accordion {
+  margin-left: -25px;
+}
+
+.card-body {
+  background-color: rgba(0,0,128,0.5);
+  padding: 0.5rem;
+}
+
+.help {
+  background-color: #036FF0;
+  color: white;
+  padding: 10px;
+}
+
+.help h4 {
+  background-color: navy;
+  padding: 10px;
+
+}
+
+.help h4:hover {
+  background-color: orange;
+}
+
+#services .fa, #services .fas:not(.fa-angle-down){
+  font-size: 64px;
+  color: #006DF0;
+}
+
+ul ul {
+  padding: 0;
+}
+
+ul h6 {
+  margin-left: -30px;
+}
