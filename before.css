@@ -108,6 +108,12 @@ ul.drops, .mt-5 ul, .card-body div{
   list-style-type: none;
 }
 
+@media only screen and (max-width:530px) {
+  .babysitter {
+    display: none;
+  }
+}
+
 .regsize.babysitter {
   animation: fade-in 1.4s;
 animation-fill-mode: forwards;
