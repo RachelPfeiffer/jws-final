@@ -104,6 +104,8 @@ ul.drops, .mt-5 ul, .card-body div{
   padding: 30px;
   background-color: white;
   color: navy;
+  list-style-image: none;
+  list-style-type: none;
 }
 
 .regsize.babysitter {
