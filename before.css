@@ -108,9 +108,17 @@ ul.drops, .mt-5 ul, .card-body div{
   list-style-type: none;
 }
 
+.little-babysitter {
+  display: none;
+}
+
 @media only screen and (max-width:530px) {
   .babysitter {
     display: none;
+  }
+  
+  .little-babysitter {
+    display: block;
   }
 }
 
