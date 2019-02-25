@@ -170,17 +170,22 @@ animation-fill-mode: forwards;
   color: white;
   padding: 0;
   position: absolute;
-  top: 6em;
+  top: 10em;
   left: calc(50% - 100px);
   width: 0;
   display: none;
   transition: all 1s ease;
+  transition: display 0.1s ease;
 }
 
 .help.in {
   width: 200px;
   padding: 10px;
   display: block;
+}
+
+.closer:hover {
+  cursor: pointer;
 }
 
 .help h4 {
