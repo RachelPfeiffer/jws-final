@@ -160,6 +160,13 @@ animation-fill-mode: forwards;
   background-color: #036FF0;
   color: white;
   padding: 10px;
+  position: absolute;
+  right: -50%;
+  transition: all 1s ease;
+}
+
+.help.in {
+  transform: translateX(50%);
 }
 
 .help h4 {
