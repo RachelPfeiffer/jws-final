@@ -1,4 +1,4 @@
-html {
+lhtml {
   overflow-x: hidden;
 }
 
@@ -201,3 +201,10 @@ ul ul {
 ul h6 {
   margin-left: -30px;
 }
+
+@media only screen and (max-width:990px) {
+  .contact-form {
+    text-align: left;
+  }
+}
+.contact
