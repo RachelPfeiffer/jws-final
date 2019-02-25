@@ -157,6 +157,7 @@ animation-fill-mode: forwards;
 }
 
 .help {
+  z-index: 1;
   background-color: #036FF0;
   color: white;
   padding: 10px;
