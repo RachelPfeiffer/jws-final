@@ -165,6 +165,7 @@ animation-fill-mode: forwards;
 }
 
 .help {
+  margin: 1em;
   z-index: 1;
   background-color: #036FF0;
   color: white;
