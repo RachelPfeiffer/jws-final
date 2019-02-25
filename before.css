@@ -168,23 +168,17 @@ animation-fill-mode: forwards;
   z-index: 1;
   background-color: #036FF0;
   color: white;
-  padding: 0;
-  position: fixed;
-  top: 10em;
-  right: 10px;
-  width: 0;
+  padding: 10px;
+  height: 0;
   color: transparent;
   user-select: none;
   transition: all 1s ease;
-  transition: display 0.1s ease;
 }
 
 .help.in {
   color: palegoldenrod;
   user-select: auto;
-  width: 200px;
-  padding: 10px;
-  display: block;
+  height: auto;
 }
 
 .closer:hover {
