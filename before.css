@@ -173,12 +173,15 @@ animation-fill-mode: forwards;
   top: 10em;
   left: calc(50% - 100px);
   width: 0;
-  display: none;
+  color: transparent;
+  user-select: none;
   transition: all 1s ease;
   transition: display 0.1s ease;
 }
 
 .help.in {
+  color: inherit;
+  user-select: auto;
   width: 200px;
   padding: 10px;
   display: block;
