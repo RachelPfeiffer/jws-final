@@ -1,4 +1,4 @@
-
+var help = document.querySelector('.help');
 !function(e){"use strict";
 var animateHTML = function() {
   var elems,
@@ -32,12 +32,22 @@ var animateHTML = function() {
       listys[i].classList.add("regsize");
       }
     }
+    
+     var helpPosition = help.getBoundingClientRect().top;
+    if (helpPosition - windowHeight <= -100) {
+      help.classList.add("in");
+    }
   }
 
   return {
     init: init
   }
 }
+
+var close = document.querySelector('.close');
+ close.addEventListener('click', function() {
+               help.classList.remove('in');
+             })
 
 
 animateHTML().init();
