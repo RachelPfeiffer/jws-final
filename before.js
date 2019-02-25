@@ -46,7 +46,7 @@ var animateHTML = function() {
 
 var close = document.querySelector('.closer');
  close.addEventListener('click', function() {
-               help.classList.remove('in');
+               help.style.display = none;
              })
 
 
