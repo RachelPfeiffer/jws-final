@@ -173,12 +173,14 @@ animation-fill-mode: forwards;
   top: 6em;
   left: calc(50% - 100px);
   width: 0;
+  display: none;
   transition: all 1s ease;
 }
 
 .help.in {
   width: 200px;
   padding: 10px;
+  display: block;
 }
 
 .help h4 {
