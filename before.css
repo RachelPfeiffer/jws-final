@@ -180,7 +180,7 @@ animation-fill-mode: forwards;
 }
 
 .help.in {
-  color: inherit;
+  color: palegoldenrod;
   user-select: auto;
   width: 200px;
   padding: 10px;
