@@ -166,7 +166,7 @@ animation-fill-mode: forwards;
 }
 
 .help.in {
-  transform: translateX(50%);
+  transform: translateX(-100%);
 }
 
 .help h4 {
