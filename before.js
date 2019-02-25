@@ -44,7 +44,7 @@ var animateHTML = function() {
   }
 }
 
-var close = document.querySelector('.close');
+var close = document.querySelector('.closer');
  close.addEventListener('click', function() {
                help.classList.remove('in');
              })
