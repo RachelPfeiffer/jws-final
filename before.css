@@ -162,7 +162,7 @@ animation-fill-mode: forwards;
   color: white;
   padding: 10px;
   position: absolute;
-  right: -100%;
+  right: -80%;
   transition: all 1s ease;
 }
 
